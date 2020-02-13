@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Rmarkdown For Scientists</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Nicholas Tierney     Monash University" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="my-theme.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Rmarkdown For Scientists
+### Nicholas Tierney <br> <br> Monash University
+### Thursday 13th February, 2020 <br><br> .huge[rmd4sci.njtierney.com]
+
+---
+
+
+
+
+class: center, inverse
+
+
+background-image: url(gifs/who-ami-i.gif)
+background-size: contain
+background-position: 50% 50%
+class: center, bottom
+
+---
+class: center, inverse
+
+# Previously: Psychology
+&lt;img src="img/psych.png" width="1333" /&gt;
+
+---
+class: center, inverse
+# (Somewhat) Recently: PhD statistics
+
+&lt;img src="img/about-grad-small.jpg" width="75%" /&gt;
+
+---
+class: inverse, middle, center
+
+# Currently: R packages
+
+
+&lt;img src="img/hex-visdat-and-naniar.png" width="80%" /&gt;
+
+.pull-left[
+.center[
+.hugew[
+visdat.njtierney.com
+]
+]
+]
+
+.pull-right[
+.center[
+.hugew[
+naniar.njtierney.com
+]
+]
+]
+
+---
+class: center, inverse
+# Previously: The Carpentries
+
+&lt;img src="img/carpentries.png" width="2717" /&gt;
+
+---
+class: center
+# Currently: ~~Post Doc~~ Lecturer
+
+.pull-left[
+&lt;img src="img/numbat-logo.png" width="956" /&gt;&lt;img src="img/monash-logo.png" width="600" /&gt;
+]
+
+.pull-right[
+&lt;img src="http://dicook.org/img/dicook-2019.png" width="60%" /&gt;&lt;img src="img/rob-j-hyndman.jpg" width="60%" /&gt;
+
+]
+
+
+---
+class: middle, center
+# Our helpers
+
+---
+class: center, middle, inverse
+# Your Turn
+
+.vhugew[
+Introduce yourselves to TWO other people
+]
+
+---
+class: center, inverse, middle
+# The bad news
+
+.vhugew[
+There are times when learning this material might be  frustrating, and that is a totally normal thing, and expected
+]
+
+---
+class: center, middle
+# The good news: 
+
+.vhugeb[
+This is temporary and well worth the effort. 
+]
+
+---
+# The plan
+
+.vlargeb[
+- Interactive Lesson - mixed teaching and practicals
+
+- materials available at [rmd4sci.njtierney.com](https://rmd4sci.njtierney.com)
+]
+
+---
+
+# The plan
+
+.large[
+Course runs 10am - 2pm:
+
+- 10am - 11:45am: 
+  - Why Rmarkdown 
+  - Installation 
+  - Rstudio, what, and why
+  - Workflow
+  - Using rmarkdown
+  - HTML, PDF, and Word
+- 11:45am - 12:15pm: light lunch
+- 12:15pm - 2pm - course
+  - Keyboard shortcuts
+  - Figures, Tables, and Captions
+  - Customising your Figures
+  - Citing Figures, Tables, and Sections
+  - Citing Articles and Bibliography Styles
+]
+
+---
+# Operating Style
+
+.middle[
+.center[
+.vvhugeb[
+Traffic Light system
+]
+]
+]
+
+---
+class: center
+
+# Thank you!
+
+&lt;!-- .middle[ --&gt;
+&lt;!-- .vvhugeb[ --&gt;
+&lt;!--  [goo.gl/rmgeuB](https://goo.gl/rmgeuB) --&gt;
+
+&lt;!--  [github.com/njtierney/rmd4sci](https://www.github.com/njtierney/rmd4sci) --&gt;
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
