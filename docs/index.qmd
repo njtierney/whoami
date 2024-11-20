@@ -93,7 +93,7 @@ nipa <- list(red = "#c03018",
     -   Maintain and design R packages: [`greta`](), [`conmat`]()
     
 
-# Hiking! njt.micro.blog
+# ❤️ Hiking! `njt.micro.blog`
 
 ![](img/pct-collage.jpg){background-size="75%"}
 
