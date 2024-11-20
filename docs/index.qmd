@@ -281,25 +281,25 @@ This is temporary and well worth the effort.
 
 ::::: columns
 ::: {.column width="45%"}
--   11 - 12:30:
+-   11 - 12:15:
     -   [Why Quarto](https://qmd4sci.njtierney.com/why-qmd.html)
     -   [Installation](https://qmd4sci.njtierney.com/installation.html)
     -   [Rstudio, what + why](https://qmd4sci.njtierney.com/rstudio.html)
     -   [Workflow](https://qmd4sci.njtierney.com/workflow.html)
+-   12:15 - 12:30: BREAK
+-   1:30 - 2:30:
     -   [Using Quarto](https://qmd4sci.njtierney.com/using-qmd.html)
--   12:30 - 1:15: BREAK
--   1:15 - 2:45:
     -   [HTML, PDF, and Word](https://qmd4sci.njtierney.com/pdf-html-word.html)
+    -   [Keyboard shortcuts](https://qmd4sci.njtierney.com/keyboard-shortcuts.html)
 
 :::
 
 ::: {.column width="50%"}
 
--   [Keyboard shortcuts](https://qmd4sci.njtierney.com/keyboard-shortcuts.html)
 -   [Figures, Tables, Captions](https://qmd4sci.njtierney.com/figures-tables-captions.html)
 -   [Customising Figures](https://qmd4sci.njtierney.com/changing-figures.html)
     
--   2:45 - 3: BREAK
+-   2:30 - 3: BREAK
 
 -   3 - 4:
     -   [Citing Figures](https://qmd4sci.njtierney.com/cite-fig-tab-sec.html) / [Managing References](https://qmd4sci.njtierney.com/citations-and-styles.html)
