@@ -1,9 +1,9 @@
 ---
 title: "**Quarto** for Scientists"
-subtitle: "ECSSC2024"
-date: "2024-11-21"
+subtitle: "SSA QLD"
+date: "2025-04-10"
 author: "Nicholas Tierney"
-institute: The Kids Research Institute Australia
+institute: Freelance Statistician and Research Software Engineer
 format: 
   revealjs:
     theme: [blood, extra.scss]
@@ -88,9 +88,13 @@ nipa <- list(red = "#c03018",
 
     -   Design EDA R packages: [`visdat`](), [`naniar`](), [`brolgar`]()
 
--   **2021 - 2024**: **Research Software Engineer** \@ The Kids Research Institute Australia
+-   **2021 - 2025**: **Research Software Engineer** \@ The Kids
 
     -   Maintain and design R packages: [`greta`](), [`conmat`]()
+
+-   **2025 - **: Freelance Statistician & **RSE** 
+
+    -   Deliver courses, code review, consultations
     
 
 # ❤️ Hiking! `njt.micro.blog`
@@ -255,8 +259,6 @@ include_graphics(here::here("docs/img/tf-examples.png"))
 
 # Your Turn
 
-Break out into groups of 3.
-
 Introduce yourselves to TWO other people:
 
 - 1 work factoid 
@@ -279,41 +281,19 @@ This is temporary and well worth the effort.
 
 # The plan:
 
-::::: columns
-::: {.column width="45%"}
--   11 - 12:15:
-    -   [Why Quarto](https://qmd4sci.njtierney.com/why-qmd.html)
-    -   [Installation](https://qmd4sci.njtierney.com/installation.html)
-    -   [Rstudio, what + why](https://qmd4sci.njtierney.com/rstudio.html)
-    -   [Workflow](https://qmd4sci.njtierney.com/workflow.html)
--   12:15 - 12:30: BREAK
--   1:30 - 2:30:
-    -   [Using Quarto](https://qmd4sci.njtierney.com/using-qmd.html)
-    -   [HTML, PDF, and Word](https://qmd4sci.njtierney.com/pdf-html-word.html)
-    -   [Keyboard shortcuts](https://qmd4sci.njtierney.com/keyboard-shortcuts.html)
+(Note that this is not catered)
 
-:::
-
-::: {.column width="50%"}
-
--   [Figures, Tables, Captions](https://qmd4sci.njtierney.com/figures-tables-captions.html)
--   [Customising Figures](https://qmd4sci.njtierney.com/changing-figures.html)
-    
--   2:30 - 3: BREAK
-
--   3 - 4:
-    -   [Citing Figures](https://qmd4sci.njtierney.com/cite-fig-tab-sec.html) / [Managing References](https://qmd4sci.njtierney.com/citations-and-styles.html)
-    -   [Common problems](https://qmd4sci.njtierney.com/common-problems.html) / AMA
-    
-:::
-:::::
+- 0900 - 1030: Teaching
+- 1030 - 1100: Morning Tea
+- 1100 - 1230: Teaching
+- 1230 - 1330: Lunch
+- 1330 - 1500: Teaching
+- 1500 - 1530: Afternoon Tea
+- 1530 - 1700: Teaching
 
 # Thank you!
 
-<!-- .middle[ -->
 
-<!-- .vvhugeb[ -->
-
-<!--  [goo.gl/rmgeuB](https://goo.gl/rmgeuB) -->
+ [bit.ly/qmd4sci-bne-25](https://bit.ly/qmd4sci-bne-25)
 
 <!--  [github.com/njtierney/rmd4sci](https://www.github.com/njtierney/rmd4sci) -->
