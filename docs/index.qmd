@@ -1,5 +1,5 @@
 ---
-title: "**Introduction to** \nR packages"
+title: "**Introduction to** <br>R packages"
 subtitle: "WOMBAT"
 date: "2025-09-28"
 author: "Nicholas Tierney"
