@@ -1,9 +1,9 @@
 ---
-title: "**R Package** Essentials"
-subtitle: "SSA QLD"
-date: "2025-04-11"
+title: "**Introduction to** \nR packages"
+subtitle: "WOMBAT"
+date: "2025-09-28"
 author: "Nicholas Tierney"
-institute: Freelance Statistician and Research Software Engineer
+institute: Statistical Consultant
 format: 
   revealjs:
     theme: [blood, extra.scss]
@@ -92,9 +92,9 @@ nipa <- list(red = "#c03018",
 
     -   Maintain and design R packages: [`greta`](), [`conmat`]()
 
--   **2025 - **: Freelance Statistician & **RSE** 
+-   **2025 - **: Statistical Consultant
 
-    -   Deliver courses, code review, consultations
+    -   Statistical modelling, software, teaching, code review
     
 
 # ❤️ Hiking! `njt.micro.blog`
@@ -103,30 +103,18 @@ nipa <- list(red = "#c03018",
 
 <!-- ##  {background-image="img/pct-collage.jpg" background-size="75%"} -->
 
+## What sorts of things does a statistical consultant do?
 
-## Define: Research Software Engineer
+-   Translate econometric models from code --> R package
 
-> A Research Software Engineer (RSE) combines professional software engineering expertise with an intimate understanding of research.
+-   Extend epidemiological modelling software
 
--- (from https://society-rse.org/about/)
+-   Provide code review to researchers
 
-## What sorts of things does an RSE do?
+-   Translate Models of urban biodiversity --> R packages
 
--   Create software to **solve research problems**
+-   Develop colour palettes, ggplot themes, automation
 
--   Develop tools that **abstract the right components** to facilitate research
-
--   Help researchers to **find and learn** good tools
-
--   Support researchers with (computational) reproducibility
-
-::: aside
-(adapted from Heidi Seibold's [UseR2021 Keynote talk](https://docs.google.com/presentation/d/1XQc2U2X8hiK43UzUi9IwvsvULxhVy0WzWSa_Kt4ZJv4/view#slide=id.gdbfb32d486_0_448))
-:::
-
-::: notes
-I bring this up because I feel a bit of a need to explain my background to help explain the context of what I do
-:::
 
 ##  {background-image="img/hex-visdat-and-naniar.png" background-size="75%"}
 
@@ -239,24 +227,6 @@ distribution(y) <- binomial(n, p)
 :::
 :::::
 
-# google tensorflow
-
-::::: columns
-::: {.column width="45%"}
--   automatic differentiation
--   efficient linear algebra
--   highly parallel
-:::
-
-::: {.column width="50%"}
-```{r}
-#| label: tf-examples
-#| echo: false
-include_graphics(here::here("docs/img/tf-examples.png"))
-```
-:::
-:::::
-
 # Your Turn
 
 Introduce yourselves to TWO other people:
@@ -277,7 +247,7 @@ This is temporary and well worth the effort.
 
 -   Interactive Lesson - mixed teaching and practicals
 
--   materials available at [qmd4sci.njtierney.com](https://qmd4sci.njtierney.com)
+-   materials available at [intro2rpkgs.njtierney.com](http://intro2rpkgs.njtierney.com/)
 
 # The plan:
 
@@ -286,14 +256,5 @@ This is temporary and well worth the effort.
 - 0900 - 1030: Teaching
 - 1030 - 1100: Morning Tea
 - 1100 - 1230: Teaching
-- 1230 - 1330: Lunch
-- 1330 - 1500: Teaching
-- 1500 - 1530: Afternoon Tea
-- 1530 - 1700: Teaching
 
 # Thank you!
-
-
- [bit.ly/qmd4sci-bne-25](https://bit.ly/qmd4sci-bne-25)
-
-<!--  [github.com/njtierney/rmd4sci](https://www.github.com/njtierney/rmd4sci) -->
